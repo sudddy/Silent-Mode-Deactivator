@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FP"
+
+    android:weightSum="1"
+    android:background="#1C263C">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/creditshelp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="150dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:id="@+id/thirdpage"
+            android:text="Welcome User!"
+            android:textColor="#ffffff"
+
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:singleLine="false"
+            android:shadowColor="#918888" />
+
+
+
+
+
+
+</LinearLayout>

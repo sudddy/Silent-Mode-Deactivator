@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sudhar.userinterface.Database2">
+    <item android:id="@+id/Knowme" android:title="@string/action_Knowme"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/Ratemyapp" android:title="@string/action_credits"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/Credits" android:title="@string/action_rate"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/Exit" android:title="@string/action_exit"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>
